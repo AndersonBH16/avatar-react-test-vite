@@ -1,8 +1,8 @@
 import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './buttonImageMid.css';
+import './buttonAddCart.css';
 
-const ButtonImageMid = () => {
+const ButtonAddCart = () => {
     return(
         <>
             <Button variant="dark" className="btn-agregar">Agregar al carrito</Button>
@@ -10,4 +10,4 @@ const ButtonImageMid = () => {
     );
 };
 
-export default ButtonImageMid;
+export default ButtonAddCart;

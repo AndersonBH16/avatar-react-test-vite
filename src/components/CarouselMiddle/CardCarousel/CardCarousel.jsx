@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ButtonImageMid from "./ButtonImageMid/ButtonImageMid";
+import ButtonAddCart from "./ButtonImageMid/ButtonAddCart";
 import DescripcionImageMid from "./DescripcionImageMid/DescripcionImageMid";
 import ImageCarouselMid from "./ImageCarouselMid/ImageCarouselMid";
 import './cardCarousel.css';
@@ -23,7 +23,7 @@ const CardCarousel = ({imgURL}) => {
             <DescripcionImageMid />
             <div className="btn-placeholder">
             {
-                isHovered && (<ButtonImageMid />)
+                isHovered && (<ButtonAddCart />)
             }
             </div>        
         </div>
