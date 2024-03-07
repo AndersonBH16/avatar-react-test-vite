@@ -1,0 +1,7 @@
+.container-carousel-mid {
+    display: flex;
+    margin: 10% 15% 10% 15%;
+    background-color: #eeeeee;
+    justify-content: center;
+    align-items: center;
+}

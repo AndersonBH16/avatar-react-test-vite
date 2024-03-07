@@ -1,0 +1,14 @@
+.card {
+    background-color: white;
+    border-radius: 5%;
+    padding: 2%;
+    margin: 5px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-placeholder {
+    margin-top: 5%;
+    height: 30px;
+}
